@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    border: orange 2px solid;
+
+}
+
+.container {
+    margin: 20px auto;
+    width: 650px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    border: 4px solid green;
+}
+
+.home-bar {
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.away-bar {
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team{
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: #EEEEEE;
+    border: 6px solid pink;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #0a0001;
+    color: #F94F6D;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 25px;
+    font-family: 'Cursed Timer Ulil';
+    border: 4px solid rgba(184, 255, 205, 0.5);
+
+}
+
+#home-score {
+    font-size: 125px;
+    padding-top: 20px;
+    padding-right: 5px;
+    border: 4px solid purple;
+    text-align: center;
+}
+
+#away-score {
+    font-size: 125px;
+    padding-top: 20px;
+    border: 4px solid purple;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 250px;
+    border: 6px solid red;
+}
+
+.background {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.781);
+    border: 2px solid rgb(218, 213, 213);
+    border-radius: 3px;
+    width: fit-content;
+    min-width: 50px;
+    font-family: 'Cursed Timer Ulil';
+    font-size: large;
+    opacity: 0.7;
+    border: 4px solid yellow;
+}
+
+.background:hover {
+    opacity: 1;
+}
